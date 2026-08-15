@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias por tu mensaje! - Monaguillos Parroquia Reina de la Paz</title>
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: radial-gradient(circle at top center, #2e080b 0%, #120304 60%, #080102 100%);
+            background-attachment: fixed;
+        }
+
+        .font-cinzel {
+            font-family: 'Cinzel', serif;
+        }
+
+        .gold-border {
+            border-color: rgba(226, 161, 25, 0.3);
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF0B3 0%, #E2A119 50%, #B37B0D 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gold-btn {
+            background: linear-gradient(135deg, #E2A119 0%, #C4870C 100%);
+        }
+
+        .gold-btn:hover {
+            background: linear-gradient(135deg, #F3B32A 0%, #D5981D 100%);
+        }
+    </style>
+</head>
+
+<body
+    class="min-h-screen flex items-center justify-center p-6 text-white selection:bg-[#E2A119]/30 selection:text-white">
+
+    <div
+        class="max-w-md w-full bg-[#1A0507]/90 backdrop-blur-md border gold-border rounded-3xl p-8 text-center shadow-[0_20px_50px_rgba(0,0,0,0.8)] relative overflow-hidden">
+
+        <!-- Barra de acento dorada superior -->
+        <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#991b1b] via-[#E2A119] to-[#991b1b]">
+        </div>
+
+        <!-- Círculo de ícono con relieve -->
+        <div
+            class="w-20 h-20 bg-gradient-to-br from-[#E2A119] to-[#9A6A08] rounded-full flex items-center justify-center text-red-950 text-4xl font-bold mx-auto mb-6 shadow-[0_0_25px_rgba(226,161,25,0.4)] animate-bounce border-2 border-[#FFF0B3]/40">
+            🙏
+        </div>
+
+        <h1 class="text-3xl font-bold font-cinzel gold-gradient-text mb-4 tracking-wide">
+            ¡Mensaje Enviado!
+        </h1>
+
+        <p class="text-red-100/80 text-base leading-relaxed mb-8 font-normal">
+            Gracias por contactarnos. Hemos recibido tu mensaje y muy pronto nos comunicaremos contigo. ¡Que el Señor te
+            bendiga siempre!
+        </p>
+
+        <a href="index.html"
+            class="inline-block w-full py-4 px-6 gold-btn text-red-950 font-extrabold text-lg rounded-xl transition duration-300 shadow-lg transform hover:-translate-y-0.5 border border-[#FFF0B3]/50">
+            Volver al Inicio
+        </a>
+
+        <div
+            class="mt-8 pt-6 border-t border-red-900/30 flex items-center justify-center gap-2 text-xs text-red-200/60">
+            <img src="4K.png" alt="Logo Monaguillos"
+                class="h-6 w-6 object-contain rounded-full border border-[#E2A119]/40">
+            <span class="font-medium">Monaguillos Parroquia Reina de la Paz - Honduras</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
